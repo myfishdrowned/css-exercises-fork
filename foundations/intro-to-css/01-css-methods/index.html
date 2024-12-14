@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Methods for Adding CSS</title>
-  </head>
-  <body>
-    <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Methods for Adding CSS</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    div {
+      background-color: red;
+
+      color: white;
+
+      font-size: 30px;
+
+      font-weight: bold;
+
+      text-align: center;
+
+      padding: 5px;
+
+      margin: 20px auto;
+
+      border: 1px solid #388e3c;
+
+      border-radius: 2px;
+
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+
+      font-family: "Times New Roman", sans-serif;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div>Style me via the external method!</div>
+  <p style="background-color: blue; color: goldenrod; font-size: 25px; text-align: left; padding: 5px; margin: 10px auto;  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0; font-family: "
+    Times New Roman", sans-serif;">
+    I would like to be styled with the internal method, please.</p>
+  <button>Inline Method</button>
+</body>
+
 </html>
